@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+cd tutorials/discInConstantFlowTut/discInConstantFlow
+./Allclean
+cd ../discInConstantFlowExt
+./Allclean
