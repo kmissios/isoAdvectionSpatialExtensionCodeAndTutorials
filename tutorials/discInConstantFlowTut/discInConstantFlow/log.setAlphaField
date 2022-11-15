@@ -1,0 +1,34 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2106                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _40a7d5d6-20210727 OPENFOAM=2106 patch=211215
+Arch   : "LSB;label=32;scalar=64"
+Exec   : setAlphaField
+Date   : Nov 15 2022
+Time   : 15:05:07
+Host   : nb-dk1082448
+PID    : 3123
+I/O    : uncollated
+Case   : /home/missios/OpenFOAM/missios-v2106/src/isoAdvectorSpatialExtensionCodeAndTutorials/tutorials/discInConstantFlowTut/discInConstantFlow
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setAlphaFieldDict
+Reading field alpha.water
+
+Writing new alpha field alpha.water
+sum(alpha*V):0.019453365401669, 1-max(alpha1): 0 min(alpha1): 0
+
+End
+

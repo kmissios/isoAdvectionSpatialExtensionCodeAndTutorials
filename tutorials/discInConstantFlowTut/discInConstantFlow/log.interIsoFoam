@@ -1,0 +1,1512 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2106                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _40a7d5d6-20210727 OPENFOAM=2106 patch=211215
+Arch   : "LSB;label=32;scalar=64"
+Exec   : interIsoFoam
+Date   : Nov 15 2022
+Time   : 15:05:07
+Host   : nb-dk1082448
+PID    : 3126
+I/O    : uncollated
+Case   : /home/missios/OpenFOAM/missios-v2106/src/isoAdvectorSpatialExtensionCodeAndTutorials/tutorials/discInConstantFlowTut/discInConstantFlow
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PIMPLE: Operating solver in PISO mode
+
+Reading field p_rgh
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Reading transportProperties
+
+Selecting incompressible transport model Newtonian
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+
+Reading g
+
+Reading hRef
+Calculating field g.h
+
+No MRF models present
+
+No finite volume options present
+Selecting reconstructionScheme: plicRDF
+time step continuity errors : sum local = 1.4207385268249e-18, global = -9.0147796634922e-19, cumulative = -9.0147796634922e-19
+Courant Number mean: 0.029999999999999 max: 0.030000000000001
+
+Starting time loop
+
+Courant Number mean: 0.029999999999999 max: 0.030000000000001
+Interface Courant Number mean: 0.00013999999999999 max: 0.03
+deltaT = 0.0012004801920768
+Time = 0.00120048
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.03 s  ClockTime = 0 s
+
+Courant Number mean: 0.036014405762304 max: 0.036014405762306
+Interface Courant Number mean: 0.00016806722689074 max: 0.036014405762305
+deltaT = 0.001441269148352
+Time = 0.00264175
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.03 s  ClockTime = 0 s
+
+Courant Number mean: 0.043238074450558 max: 0.04323807445056
+Interface Courant Number mean: 0.00021619037225278 max: 0.04323807445056
+deltaT = 0.0017285238312991
+Time = 0.00437027
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+Courant Number mean: 0.051855714938971 max: 0.051855714938973
+Interface Courant Number mean: 0.00025927857469484 max: 0.051855714938973
+deltaT = 0.0020742285975589
+Time = 0.0064445
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+Courant Number mean: 0.062226857926765 max: 0.062226857926768
+Interface Courant Number mean: 0.00034224771859719 max: 0.062226857926767
+deltaT = 0.0024901140306534
+Time = 0.00893462
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+Courant Number mean: 0.0747034209196 max: 0.074703420919604
+Interface Courant Number mean: 0.00042331938521105 max: 0.074703420919603
+deltaT = 0.0029851366993978
+Time = 0.0119198
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+Courant Number mean: 0.08955410098193 max: 0.089554100981935
+Interface Courant Number mean: 0.00053732460589156 max: 0.089554100981933
+deltaT = 0.0035800008967415
+Time = 0.0154998
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+Courant Number mean: 0.10740002690224 max: 0.10740002690225
+Interface Courant Number mean: 0.00064440016141343 max: 0.10740002690225
+deltaT = 0.0042991277144276
+Time = 0.0197989
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.12897383143282 max: 0.12897383143283
+Interface Courant Number mean: 0.00077384298859691 max: 0.12897383143283
+deltaT = 0.0051589532573131
+Time = 0.0249578
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = 0, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = 0  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.15476859771939 max: 0.1547685977194
+Interface Courant Number mean: 0.00087702205374317 max: 0.15476859771939
+deltaT = 0.0061711529470391
+Time = 0.031129
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.2621774483536e-29, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.2621774483536e-29  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.18513458841117 max: 0.18513458841118
+Interface Courant Number mean: 0.0010182402362614 max: 0.18513458841117
+deltaT = 0.0073959619288942
+Time = 0.0385249
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.2621774483536e-29, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.2621774483536e-29  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.22187885786682 max: 0.22187885786683
+Interface Courant Number mean: 0.0012573135279119 max: 0.22187885786683
+deltaT = 0.0089025467662615
+Time = 0.0474275
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0097419586829e-28, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0097419586829e-28  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.26707640298784 max: 0.26707640298785
+Interface Courant Number mean: 0.0015134329502644 max: 0.26707640298785
+deltaT = 0.010703061842584
+Time = 0.0581306
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.0166865239454e-29, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.0166865239454e-29  Max(alpha.water) = 1
+ExecutionTime = 0.06 s  ClockTime = 0 s
+
+Courant Number mean: 0.32109185527751 max: 0.32109185527753
+Interface Courant Number mean: 0.0018730358224521 max: 0.32109185527752
+deltaT = 0.012902321125307
+Time = 0.0710329
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.0389678347316e-28, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.0389678347316e-28  Max(alpha.water) = 1
+ExecutionTime = 0.07 s  ClockTime = 1 s
+
+Courant Number mean: 0.38706963375919 max: 0.38706963375921
+Interface Courant Number mean: 0.002193394591302 max: 0.38706963375921
+deltaT = 0.015482785350368
+Time = 0.0865157
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.7957851543103e-28, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.7957851543103e-28  Max(alpha.water) = 1
+ExecutionTime = 0.07 s  ClockTime = 1 s
+
+Courant Number mean: 0.46448356051103 max: 0.46448356051106
+Interface Courant Number mean: 0.0027869013630661 max: 0.46448356051105
+deltaT = 0.018642537462688
+Time = 0.105158
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.0679515313826e-25, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.0679515313826e-25  Max(alpha.water) = 1
+ExecutionTime = 0.07 s  ClockTime = 1 s
+
+Courant Number mean: 0.55927612388063 max: 0.55927612388066
+Interface Courant Number mean: 0.0030760186813433 max: 0.55927612388065
+deltaT = 0.021825409712416
+Time = 0.126984
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.8559021930652e-25, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.8559021930652e-25  Max(alpha.water) = 1
+ExecutionTime = 0.07 s  ClockTime = 1 s
+
+Courant Number mean: 0.65476229137244 max: 0.65476229137248
+Interface Courant Number mean: 0.0039285737482345 max: 0.65476229137247
+deltaT = 0.024943325385618
+Time = 0.151927
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.3010426069826e-18, max(alpha) = 1 + 8.2156503822262e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.3010426069826e-18  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.07 s  ClockTime = 1 s
+
+Courant Number mean: 0.7482997615685 max: 0.74829976156855
+Interface Courant Number mean: 0.0044897985694109 max: 0.74829976156854
+deltaT = 0.0282691021037
+Time = 0.180196
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.2485556241547e-19, max(alpha) = 1 + 1.2434497875802e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.2485556241547e-19  Max(alpha.water) = 1
+ExecutionTime = 0.08 s  ClockTime = 1 s
+
+Courant Number mean: 0.84807306311097 max: 0.84807306311102
+Interface Courant Number mean: 0.0052297838891842 max: 0.84807306311101
+deltaT = 0.030363109666937
+Time = 0.210559
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.5737488458931e-14, max(alpha) = 1 + 7.5495165674511e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.5737488458931e-14  Max(alpha.water) = 1
+ExecutionTime = 0.08 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0062244374817217 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.240922
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.5118970579216e-14, max(alpha) = 1 + 4.4408920985006e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.5118970579216e-14  Max(alpha.water) = 1
+ExecutionTime = 0.08 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0053135441917136 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.271285
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.4432880037613e-14, max(alpha) = 1 + 2.8865798640254e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.4432880037613e-14  Max(alpha.water) = 1
+ExecutionTime = 0.08 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.301648
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.8567523772047e-14, max(alpha) = 1 + 8.8817841970013e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.8567523772047e-14  Max(alpha.water) = 1
+ExecutionTime = 0.08 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.005161728643379 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.332012
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.0898500683095e-14, max(alpha) = 1 + 6.6613381477509e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.0898500683095e-14  Max(alpha.water) = 1
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0054653597400483 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.362375
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.3111454958316e-14, max(alpha) = 1 + 6.6613381477509e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.3111454958316e-14  Max(alpha.water) = 1
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0059208063850523 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.392738
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.6036644015189e-14, max(alpha) = 1 + 4.4408920985006e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.6036644015189e-14  Max(alpha.water) = 1
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.005161728643379 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.423101
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0674299815666e-14, max(alpha) = 1 + 2.2204460492503e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0674299815666e-14  Max(alpha.water) = 1
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0059208063850523 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.453464
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.7533573183378e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.7533573183378e-15  Max(alpha.water) = 1
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.483827
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0497239022782e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0497239022782e-14  Max(alpha.water) = 1
+ExecutionTime = 0.1 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.51419
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.4780226798797e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.4780226798797e-15  Max(alpha.water) = 1
+ExecutionTime = 0.1 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.006072621933387 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.544553
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.0785477140166e-14, max(alpha) = 1 + 8.9039886574938e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.0785477140166e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.1 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.005617175288383 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.574916
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.1372028068221e-14, max(alpha) = 1 + 7.9936057773011e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.1372028068221e-14  Max(alpha.water) = 1
+ExecutionTime = 0.11 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.60528
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.7845432115331e-15, max(alpha) = 1 + 6.5059069243034e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.7845432115331e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.11 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0054653597400483 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.635643
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.9428675873118e-15, max(alpha) = 1 + 4.5963233219481e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.9428675873118e-15  Max(alpha.water) = 1
+ExecutionTime = 0.11 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0054653597400483 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.666006
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.7097622454577e-14, max(alpha) = 1 + 4.8849813083507e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.7097622454577e-14  Max(alpha.water) = 1
+ExecutionTime = 0.11 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0062244374817217 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.696369
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.1913792938805e-15, max(alpha) = 1 + 3.9968028886506e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.1913792938805e-15  Max(alpha.water) = 1
+ExecutionTime = 0.12 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0053135441917136 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.726732
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.5584680504024e-15, max(alpha) = 1 + 3.1086244689504e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.5584680504024e-15  Max(alpha.water) = 1
+ExecutionTime = 0.12 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.006072621933387 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.757095
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.4230621096904e-14, max(alpha) = 1 + 2.6645352591004e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.4230621096904e-14  Max(alpha.water) = 1
+ExecutionTime = 0.12 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0059208063850523 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.787458
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.893658895822e-15, max(alpha) = 1 + 7.5273121069586e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.893658895822e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.12 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0059208063850523 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.817821
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.880933382734e-15, max(alpha) = 1 + 6.5503158452884e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.880933382734e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.12 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0063762530300563 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.848184
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.1120193068097e-14, max(alpha) = 1 + 1.5543122344752e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.1120193068097e-14  Max(alpha.water) = 1
+ExecutionTime = 0.13 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.005617175288383 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.878548
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -8.6634246270232e-15, max(alpha) = 1 + 1.1102230246252e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -8.6634246270232e-15  Max(alpha.water) = 1
+ExecutionTime = 0.13 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.908911
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.253439556335e-15, max(alpha) = 1 + 6.5503158452884e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.253439556335e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.13 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.006528068578391 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.939274
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.798149502005e-15, max(alpha) = 1 + 4.4408920985006e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.798149502005e-15  Max(alpha.water) = 1
+ExecutionTime = 0.13 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.005617175288383 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 0.969637
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.9440493438199e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.9440493438199e-15  Max(alpha.water) = 1
+ExecutionTime = 0.13 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0057689908367177 max: 0.91089329000812
+deltaT = 0.030363109666937
+Time = 1
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0146656858887e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0146656858887e-14  Max(alpha.water) = 1
+ExecutionTime = 0.15 s  ClockTime = 1 s
+
+Courant Number mean: 0.91089329000808 max: 0.91089329000813
+Interface Courant Number mean: 0.0053135441917136 max: 0.91089329000812
+deltaT = 0.03030303030303
+Time = 1.0303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.1788549934202e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.1788549934202e-14  Max(alpha.water) = 1
+ExecutionTime = 0.15 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.06061
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.9193568821123e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.9193568821123e-15  Max(alpha.water) = 1
+ExecutionTime = 0.15 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.09091
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.2448746193712e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.2448746193712e-15  Max(alpha.water) = 1
+ExecutionTime = 0.15 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.12121
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.6477972985444e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.6477972985444e-15  Max(alpha.water) = 1
+ExecutionTime = 0.16 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.15152
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.790043862502e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.790043862502e-14  Max(alpha.water) = 1
+ExecutionTime = 0.16 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.18182
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -8.1387436459816e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -8.1387436459816e-15  Max(alpha.water) = 1
+ExecutionTime = 0.16 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.21212
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.0179552405093e-15, max(alpha) = 1 + 6.1062266354384e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.0179552405093e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.16 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.24242
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.2787730361096e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.2787730361096e-15  Max(alpha.water) = 1
+ExecutionTime = 0.17 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.27273
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.9884757085842e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.9884757085842e-15  Max(alpha.water) = 1
+ExecutionTime = 0.17 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.30303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.6061221349094e-14, max(alpha) = 1 + 6.0840221749459e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.6061221349094e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.17 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.33333
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.7636132385043e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.7636132385043e-14  Max(alpha.water) = 1
+ExecutionTime = 0.17 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.36364
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.4521735143849e-15, max(alpha) = 1 + 8.3488771451812e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.4521735143849e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.39394
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.8934349038153e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.8934349038153e-14  Max(alpha.water) = 1
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.42424
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.5338735305038e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.5338735305038e-14  Max(alpha.water) = 1
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.45455
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.1586565011056e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.1586565011056e-15  Max(alpha.water) = 1
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575754 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.48485
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.0125733557594e-14, max(alpha) = 1 + 8.5265128291212e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.0125733557594e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.51515
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.0710705877553e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.0710705877553e-14  Max(alpha.water) = 1
+ExecutionTime = 0.19 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.54545
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.3953902834337e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.3953902834337e-14  Max(alpha.water) = 1
+ExecutionTime = 0.19 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.57576
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.0836429287513e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.0836429287513e-15  Max(alpha.water) = 1
+ExecutionTime = 0.19 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.60606
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.8942749671008e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.8942749671008e-15  Max(alpha.water) = 1
+ExecutionTime = 0.19 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.63636
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.6201671235636e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.6201671235636e-15  Max(alpha.water) = 1
+ExecutionTime = 0.2 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.66667
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.5878289410354e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.5878289410354e-14  Max(alpha.water) = 1
+ExecutionTime = 0.2 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.69697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.5647395727555e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.5647395727555e-15  Max(alpha.water) = 1
+ExecutionTime = 0.2 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.72727
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.3605686374434e-14, max(alpha) = 1 + 2.2204460492503e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.3605686374434e-14  Max(alpha.water) = 1
+ExecutionTime = 0.2 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.75758
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.8643895101589e-14, max(alpha) = 1 + 1.0880185641327e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.8643895101589e-14  Max(alpha.water) = 1
+ExecutionTime = 0.2 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.78788
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.7739997913364e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.7739997913364e-14  Max(alpha.water) = 1
+ExecutionTime = 0.21 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.81818
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.9298823286581e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.9298823286581e-14  Max(alpha.water) = 1
+ExecutionTime = 0.21 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.84848
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.6006275604727e-14, max(alpha) = 1 + 9.3258734068513e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.6006275604727e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.21 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.87879
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.1907693283264e-14, max(alpha) = 1 + 1.5765166949677e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.1907693283264e-14  Max(alpha.water) = 1
+ExecutionTime = 0.21 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.90909
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.4829888159235e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.4829888159235e-14  Max(alpha.water) = 1
+ExecutionTime = 0.22 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.93939
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0098486978903e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0098486978903e-14  Max(alpha.water) = 1
+ExecutionTime = 0.22 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 1.9697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.8476802579519e-14, max(alpha) = 1 + 6.5947247662734e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.8476802579519e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.22 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575754 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.4157217953428e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.4157217953428e-15  Max(alpha.water) = 1
+ExecutionTime = 0.23 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909092
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.0303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0604312041268e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.0604312041268e-14  Max(alpha.water) = 1
+ExecutionTime = 0.24 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.06061
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.466717359519e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.466717359519e-15  Max(alpha.water) = 1
+ExecutionTime = 0.24 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.09091
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.887231419891e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.887231419891e-15  Max(alpha.water) = 1
+ExecutionTime = 0.24 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.12121
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.7800147678407e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.7800147678407e-14  Max(alpha.water) = 1
+ExecutionTime = 0.24 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.15152
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.105178730996e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.105178730996e-15  Max(alpha.water) = 1
+ExecutionTime = 0.25 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.18182
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.0364589575864e-15, max(alpha) = 1 + 2.8865798640254e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.0364589575864e-15  Max(alpha.water) = 1
+ExecutionTime = 0.25 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.21212
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.4573777356419e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.4573777356419e-14  Max(alpha.water) = 1
+ExecutionTime = 0.25 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.24242
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.615836332684e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.615836332684e-14  Max(alpha.water) = 1
+ExecutionTime = 0.25 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.27273
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.5801110770793e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.5801110770793e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.30303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.5336206997074e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.5336206997074e-14  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.33333
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.0512541577311e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.0512541577311e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0068181818181813 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.36364
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.7045442594886e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.7045442594886e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.39394
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.2589366830994e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -3.2589366830994e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.42424
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.3726393759002e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.3726393759002e-14  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.45455
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.6706318065011e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.6706318065011e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.48485
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.5045205369063e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.5045205369063e-15  Max(alpha.water) = 1
+ExecutionTime = 0.26 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.51515
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.9547482251301e-14, max(alpha) = 1 + 6.1950444774084e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.9547482251301e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.54545
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.1397025565503e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -2.1397025565503e-14  Max(alpha.water) = 1
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.57576
+
+PIMPLE: iteration 1
+--> FOAM Warning : 
+    From void Foam::cutFaceAdvect::cutPoints(Foam::label, Foam::scalar, Foam::DynamicList<Foam::Vector<double> >&)
+    in file cellCuts/cutFace/cutFaceAdvect.C at line 928
+    cutPoints = 4((2.85 -0.05 2.65) (2.85 0.05 2.65) (2.85 0.05 2.7) (2.85 -0.05 2.7)) for pts = 4((2.85 -0.05 2.65) (2.85 0.05 2.65) (2.85 0.05 2.7) (2.85 -0.05 2.7)), f - f0 = 4(10763 10864 11066 10965) and f0 = 0.00030495177322673
+isoAdvection: After conservative bounding: min(alpha) = -5.3575796143263e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.3575796143263e-14  Max(alpha.water) = 1
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.60606
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.9708548697677e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -6.9708548697677e-14  Max(alpha.water) = 1
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.63636
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.9722282208525e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -9.9722282208525e-15  Max(alpha.water) = 1
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.66667
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.5462378852052e-14, max(alpha) = 1 + 8.6153306710912e-14
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.5462378852052e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.29 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0065151515151511 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.69697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.4325255865994e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -4.4325255865994e-15  Max(alpha.water) = 1
+ExecutionTime = 0.29 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.72727
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.7325351509044e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.7325351509044e-14  Max(alpha.water) = 1
+ExecutionTime = 0.29 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0066666666666662 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.75758
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.6197470919208e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.6197470919208e-14  Max(alpha.water) = 1
+ExecutionTime = 0.3 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.78788
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.1843242466951e-14, max(alpha) = 1 + 1.3322676295502e-15
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -1.1843242466951e-14  Max(alpha.water) = 1
+ExecutionTime = 0.3 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575754 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.81818
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.3667508147941e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -5.3667508147941e-14  Max(alpha.water) = 1
+ExecutionTime = 0.3 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.84848
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -8.2275278624217e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -8.2275278624217e-15  Max(alpha.water) = 1
+ExecutionTime = 0.3 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 2.87879
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.6452312494226e-14, max(alpha) = 1 + 2.2204460492503e-16
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.6452312494226e-14  Max(alpha.water) = 1
+ExecutionTime = 0.31 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 2.90909
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.7540667489578e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267778  Min(alpha.water) = -7.7540667489578e-14  Max(alpha.water) = 1
+ExecutionTime = 0.31 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909093
+deltaT = 0.030303030303031
+Time = 2.93939
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.4243338144971e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012968910267777  Min(alpha.water) = -2.4243338144971e-14  Max(alpha.water) = 1
+ExecutionTime = 0.31 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0069696969696965 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 2.9697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.3420241349181e-14, max(alpha) = 1 + 1.2212453270877e-14
+Phase-1 volume fraction = 0.012954600844759  Min(alpha.water) = -1.3420241349181e-14  Max(alpha.water) = 1
+ExecutionTime = 0.31 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 3
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -8.8447693412755e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012954185262227  Min(alpha.water) = -8.8447693412755e-15  Max(alpha.water) = 1
+ExecutionTime = 0.32 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909092
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.0303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.6033455625844e-15, max(alpha) = 1 + 2.2204460492503e-16
+Phase-1 volume fraction = 0.012954166061361  Min(alpha.water) = -7.6033455625844e-15  Max(alpha.water) = 1
+ExecutionTime = 0.32 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0069696969696965 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.06061
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -6.3948846218409e-14, max(alpha) = 1 + 4.8183679268732e-14
+Phase-1 volume fraction = 0.012954166061348  Min(alpha.water) = -6.3948846218409e-14  Max(alpha.water) = 1
+ExecutionTime = 0.32 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.09091
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.8864534486272e-14, max(alpha) = 1 + 4.1078251911131e-14
+Phase-1 volume fraction = 0.012954166061312  Min(alpha.water) = -3.8864534486272e-14  Max(alpha.water) = 1
+ExecutionTime = 0.33 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.12121
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.2823493936537e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012954024346148  Min(alpha.water) = -2.2823493936537e-14  Max(alpha.water) = 1
+ExecutionTime = 0.33 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.15152
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.158542704847e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012938984898877  Min(alpha.water) = -2.158542704847e-14  Max(alpha.water) = 1
+ExecutionTime = 0.33 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.18182
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.8219567467683e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012921569159415  Min(alpha.water) = -4.8219567467683e-15  Max(alpha.water) = 1
+ExecutionTime = 0.33 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.21212
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.052498258129e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012920917064178  Min(alpha.water) = -4.052498258129e-15  Max(alpha.water) = 1
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0053030303030299 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.24242
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.2680704926353e-15, max(alpha) = 1 + 7.283063041541e-14
+Phase-1 volume fraction = 0.012920916204175  Min(alpha.water) = -3.2680704926353e-15  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.27273
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.1245234782637e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012920916204156  Min(alpha.water) = -3.1245234782637e-15  Max(alpha.water) = 1
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.30303
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.9538661079421e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918184568123  Min(alpha.water) = -2.9538661079421e-15  Max(alpha.water) = 1
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.33333
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.867025053078e-14, max(alpha) = 1 + 3.663735981263e-14
+Phase-1 volume fraction = 0.01291816948452  Min(alpha.water) = -1.867025053078e-14  Max(alpha.water) = 1
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909087 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.36364
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.9350736392128e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169481456  Min(alpha.water) = -3.9350736392128e-15  Max(alpha.water) = 1
+ExecutionTime = 0.35 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.39394
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.7691370371126e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169480115  Min(alpha.water) = -2.7691370371126e-15  Max(alpha.water) = 1
+ExecutionTime = 0.35 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.42424
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.3700624167881e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169479708  Min(alpha.water) = -2.3700624167881e-15  Max(alpha.water) = 1
+ExecutionTime = 0.35 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.45455
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.4157025720069e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169479423  Min(alpha.water) = -1.4157025720069e-14  Max(alpha.water) = 1
+ExecutionTime = 0.35 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575753 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.48485
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.3344803135086e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169479224  Min(alpha.water) = -2.3344803135086e-15  Max(alpha.water) = 1
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.51515
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.9749627678826e-15, max(alpha) = 1 + 2.5979218776229e-14
+Phase-1 volume fraction = 0.012918169479084  Min(alpha.water) = -1.9749627678826e-15  Max(alpha.water) = 1
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0063636363636359 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.54545
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.9215459080749e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169478986  Min(alpha.water) = -9.9215459080749e-14  Max(alpha.water) = 1
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.57576
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -3.0888712029324e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169478918  Min(alpha.water) = -3.0888712029324e-14  Max(alpha.water) = 1
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.006515151515151 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.60606
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.376550135137e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.01291816947887  Min(alpha.water) = -2.376550135137e-14  Max(alpha.water) = 1
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.63636
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.343620661066e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169478837  Min(alpha.water) = -7.343620661066e-14  Max(alpha.water) = 1
+ExecutionTime = 0.37 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.66667
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.1236802734085e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169478813  Min(alpha.water) = -1.1236802734085e-14  Max(alpha.water) = 1
+ExecutionTime = 0.37 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.69697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.2384012897597e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918169478463  Min(alpha.water) = -9.2384012897597e-14  Max(alpha.water) = 1
+ExecutionTime = 0.37 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.72727
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.3681416182207e-14, max(alpha) = 1 + 5.8175686490358e-14
+Phase-1 volume fraction = 0.012918158439027  Min(alpha.water) = -1.3681416182207e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.37 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606056 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.75758
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0318970014135e-14, max(alpha) = 1 + 8.1712414612412e-14
+Phase-1 volume fraction = 0.012918158438944  Min(alpha.water) = -1.0318970014135e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.38 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.78788
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -5.1325946859641e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012918158438887  Min(alpha.water) = -5.1325946859641e-14  Max(alpha.water) = 1
+ExecutionTime = 0.38 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0059090909090905 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.81818
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -4.0802378311073e-14, max(alpha) = 1 + 9.7255536957164e-14
+Phase-1 volume fraction = 0.012918158438847  Min(alpha.water) = -4.0802378311073e-14  Max(alpha.water) = 1.0000000000001
+ExecutionTime = 0.38 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0056060606060602 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.84848
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.9069644971738e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012904696370378  Min(alpha.water) = -1.9069644971738e-14  Max(alpha.water) = 1
+ExecutionTime = 0.38 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0054545454545451 max: 0.90909090909092
+deltaT = 0.03030303030303
+Time = 3.87879
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.1722297791127e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012904313270756  Min(alpha.water) = -1.1722297791127e-14  Max(alpha.water) = 1
+ExecutionTime = 0.39 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0060606060606057 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 3.90909
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -1.0523568548568e-14, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012904312976699  Min(alpha.water) = -1.0523568548568e-14  Max(alpha.water) = 1
+ExecutionTime = 0.39 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575754 max: 0.90909090909093
+deltaT = 0.030303030303031
+Time = 3.93939
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -7.8101675172705e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012904312976689  Min(alpha.water) = -7.8101675172705e-15  Max(alpha.water) = 1
+ExecutionTime = 0.39 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0062121212121208 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 3.9697
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -2.6784971547131e-14, max(alpha) = 1 + 6.6613381477509e-15
+Phase-1 volume fraction = 0.012904312976683  Min(alpha.water) = -2.6784971547131e-14  Max(alpha.water) = 1
+ExecutionTime = 0.39 s  ClockTime = 1 s
+
+Courant Number mean: 0.90909090909088 max: 0.90909090909093
+Interface Courant Number mean: 0.0057575757575754 max: 0.90909090909093
+deltaT = 0.03030303030303
+Time = 4
+
+PIMPLE: iteration 1
+isoAdvection: After conservative bounding: min(alpha) = -9.7748226792345e-15, max(alpha) = 1 + 0
+Phase-1 volume fraction = 0.012904312976678  Min(alpha.water) = -9.7748226792345e-15  Max(alpha.water) = 1
+ExecutionTime = 0.41 s  ClockTime = 1 s
+
+End
+
